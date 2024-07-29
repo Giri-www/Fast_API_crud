@@ -1,8 +1,8 @@
-# app/main.py
 from fastapi import FastAPI
 from app.database import engine, Base
 from app.routers import items
 
+# Create the FastAPI app instance
 app = FastAPI()
 
 # Create all database tables

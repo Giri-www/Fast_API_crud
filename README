@@ -1,2 +1,18 @@
 ### FAST API CRUD OPERATION ### 
 ##!!!   !!!!!##
+    #HOW TO RUN AFTER CLONE# 
+    1. Delete alembic directory and alembic.ini
+    2. Create alembic 
+    3. Update env.py in alembic
+    4. Update alembic.ini
+    5. Drop table from DB
+    6. Then Start Migrations Newly 
+        # (i) alembic revision --autogenerate -m "Initial migration" #
+        # (ii) alembic upgrade head
+        # (iii) uvicorn main:app --reload --host 0.0.0.0 --port 8080 
+
+
+
+
+
+    
